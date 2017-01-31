@@ -1644,6 +1644,7 @@
 
 	p {
 		margin: 0 0 2em 0;
+		/*color: #000;*/
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2250,6 +2251,7 @@
 
 		.image.round img {
 			border-radius: 100%;
+			width: 150px;
 		}
 
 		.image.left {
@@ -2304,6 +2306,7 @@
 
 		ul li {
 			padding-left: 0.5em;
+			color: #000;
 		}
 
 		ul.alt {
@@ -2946,7 +2949,7 @@
 		}
 
 		#banner p {
-			font-size: 15px;
+			font-size: 25px;
 			color: rgba(255, 255, 255, 0.75);
 			margin-bottom: 1.75em;
 		}
@@ -2986,7 +2989,7 @@
 				}
 
 				#banner p {
-					font-size: .9em;
+					font-size: 20px;
 				}
 
 		}
