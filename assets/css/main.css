@@ -1799,6 +1799,7 @@
 
 		section.wrapper.style1, article.wrapper.style1 {
 			background: #2d6cc0;
+			background-image: url('../../images/pattern.png');
 			color: #bacee6;
 		}
 
