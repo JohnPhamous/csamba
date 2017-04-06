@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>C-SAMBA</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/events.css">
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+
+    <script>
+        $(function () {
+            $("#footer").load("footer.html");
+        });
+        $(function() {
+			$("#people-modals").load("modals.html");
+		});
+    </script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top collapsed top-nav-collapse">
+		<div class="container">
+			<div class="navbar-header page-scroll">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+				<!-- <a class="navbar-brand page-scroll" href="#banner">C-SAMBA</a> -->
+			</div>
+
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a class="page-scroll" href="index.html">Home</a></li>
+					<li><a class="page-scroll" href="#overview">Overview</a></li>
+					<li><a class="page-scroll" href="#people">Faculty</a></li>
+					<li><a class="page-scroll" href="#publications">Publications</a></li>
+					<li><a class="page-scroll" href="research.html" selected>Research</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="news-archive.html">News Archive</a></li>
+					<li><a data-toggle="modal" data-target="#funding">Funding</a></li>
+					<li><a data-toggle="modal" data-target="#impact">Outreach</a></li>
+					<li><a data-toggle="modal" data-target="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+    <section id="overview" class="wrapper">
+        <div class="inner">
+            <div>
+                <header>
+                    <h3>Research</h3>
+                    <p style="color: #000">
+                        C-SAMBA has 5 on-going grant-funded projects: SPOT, PIRE, EAGER, DARPA, LASCE, and AFOSR. The projects are conducting researching ranging from manufacturing to biocompatability.
+                    </p>
+                </header>
+            </div>
+            <div class="flex flex-3">
+                <article>
+                    <header>
+                        <h3>SPOT</h3>
+                    </header>
+                    <ul>
+                        <li>Nanopowder Control bubble and acoustic dynamics of optical cavitation using environmental, optical, and fluid factors</li>
+                        <li>Relate roughhness/elasticity of skin to cavitation dynamics</li>
+                        <li>Characterize thermal consequences at and within skin-liquid layer boundary</li>
+                        <li>Fabricate prottype of optical cavitation-based skin poration device</li>
+                        <li>Demonstrate skin poration</li>
+                    </ul>
+                </article>
+                <article>
+                    <header>
+                        <h3>PIRE</h3>
+                    </header>
+                    <ul>
+                        <li>Nanopowder synthesis</li>
+                        <li>Implant fabrication: new materials and manufacturing</li>
+                        <li>Characterization of ceramics: optical, mechanical, thermal</li>
+                        <li>Fiber development and coupling</li>
+                        <li>Laser-written phottnic structures</li>
+                        <li>Biocompatibility</li>
+                        <li>Optical imaging and therapy</li>
+                    </ul>
+                </article>
+                <article>
+                    <header>
+                        <h3>EAGER</h3>
+                    </header>
+                    <ul>
+                        <li>Implant low-temperature aging-comparing optical properties of various grain sizes and Yttria density</li>
+                        <li>Changes in optical properties due to fouling</li>
+                        <li>Anti-fouling - comparing various grain sizing and Yttri density</li>
+                    </ul>
+                </article>
+            </div>
+            <hr />
+            <div class="flex flex-3">
+                <article>
+                    <header>
+                        <h3>DARPA</h3>
+                    </header>
+                    <ul>
+                        <li>Fabricate transparent ceramics</li>
+                        <li>Build sealing rig</li>
+                        <li>Perform laser sealing</li>
+                        <li>Characterize seal</li>
+                    </ul>
+                </article>
+                <article>
+                    <header>
+                        <h3>LASCE</h3>
+                    </header>
+                    <ul>
+                        <li>Balance heat input vs. cooling enhancement by LASCE</li>
+                        <li>Determine sensitivity of fluid flow to laser parameters</li>
+                        <li>Investigate physics of multiple cavitation events; effect on cooling</li>
+                    </ul>
+                </article>
+                <article>
+                    <header>
+                        <h3>AFOSR</h3>
+                    </header>
+                    <ul>
+                        <li>Measure peak temperature and temperature gradient during laser-metal interaction</li>
+                        <li>Model thermal and electronic effects occuring during laser-induced oxidation</li>
+                        <li>Contrast laser-induced oxides with conventional thermally-induced oxides</li>
+                        <li>Compare features of laser-induced oxides formed in ctrolled oxygen vs. normal air</li>
+                        <li>Demonstrate large-area oxide formation</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="people-modals"></div>
+</body>
+
+</html>
