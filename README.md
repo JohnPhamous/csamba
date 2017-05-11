@@ -1,8 +1,6 @@
 # C-SAMBA's Website
 
-## Todos
-
+## TODO
 - Navbar scroll to section
-- Cecilia's picture
-- Publications
-- URC Club website
+- Publications list
+- Login credentials
