@@ -1,85 +1,66 @@
 <!DOCTYPE HTML>
 <html>
 
-<head>
-  <title>C-SAMBA</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="assets/css/main.css" />
-  <link rel="stylesheet" href="assets/css/bootstrap.css" />
-  <link rel="stylesheet" href="assets/css/events.css" />
-  <link rel='shortcut icon' type='image/x-icon' href='./images/favicon.ico' />
+    <head>
+        <title>C-SAMBA | Research</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/bootstrap.css" />
+        <link rel='shortcut icon' type='image/x-icon' href='./images/favicon.ico' />
 
-  <script src="assets/js/jquery.js"></script>
-  <script src="assets/js/skel.min.js"></script>
-  <script src="assets/js/util.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/bootstrap.js"></script>
-</head>
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/bootstrap.js"></script>
+        <script src="assets/js/styling.js"></script>
+        <script>
+$(function() {
+    $("#footer").load("footer.html");
+    $("#people-modals").load("modals.html");
+    $("#nav-include").load("templates/navbar.html");
+});
+        </script>
+    </head>
 
-<body>
-
-  <nav class="navbar navbar-default navbar-fixed-top collapsed top-nav-collapse">
-    <div class="container">
-      <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-	            <span class="sr-only">Toggle navigation</span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	          </button>
-        <!-- <a class="navbar-brand page-scroll" href="#banner">C-SAMBA</a> -->
-      </div>
-
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a class="page-scroll" href="index.html">Home</a></li>
-          <li><a class="page-scroll" href="index.html#overview">Overview</a></li>
-          <li><a class="page-scroll" href="index.html#people">Faculty</a></li>
-          <li><a class="page-scroll" href="index.html#publications">Publications</a></li>
-          <li><a class="page-scroll" href="research.html" selected>Research</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="news-archive.html">News Archive</a></li>
-          <li><a data-toggle="modal" data-target="#funding">Funding</a></li>
-          <li><a data-toggle="modal" data-target="#impact">Outreach</a></li>
-          <li><a data-toggle="modal" data-target="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <section id="overview" class="wrapper">
-    <div class="inner">
-      <div class="flex flex-2">
-        <header>
-          <h2>Window to the Brain Research</h2>
-          <h3 style="color: #000">
-                        C-SAMBA's Window to the Brain Project focuses on 8 areas:
-                    </h3>
-          <ul class="alt">
-            <li><a href="research/manufacturing.html">Manufacturing</a></li>
-            <li><a href="research/nanopowdersynthesis.html">Nanopowder Synthesis</a></li>
-            <li><a href="research/material-fabrication.html">Material Fabrication</a></li>
-            <li><a href="research/material-characterization.html">Material Characterization</a></li>
-            <li><a href="research/fiber-development.html">Fiber Development and Coupling</a></li>
-            <li><a href="research/photonic-structures.html">Laser-written Photonic Structures</a></li>
-            <li><a href="research/biocompatability.html">Biocompatibility</a></li>
-            <li><a href="research/optical-image.html">Optical Imaging and Therapy</a></li>
-          </ul>
-        </header>
-        <header>
-          <h2>Other Research</h2>
-          <h3 style="color: #000">
-                        C-SAMBA also conducts research in the following areas:
-                    </h3>
-          <ul class="alt">
-            <li><a href="research/ceramic-welding.html">Ceramic Welding</a></li>
-            <li><a href="research/optical-cavitation.html">Optical Cavitation</a></li>
-            <li><a href="research/laser-processing.html">Laser Processing</a></li>
-          </ul>
-        </header>
-      </div>
-    </div>
-  </section>
-</body>
+    <body>
+        <div id="nav-include"></div>
+        <section id="overview" class="wrapper">
+            <div class="inner">
+                <div class="flex flex-2">
+                    <header>
+                        <h2>Window to the Brain Research</h2>
+                        <h3 style="color: #000">
+                            C-SAMBA's Window to the Brain Project focuses on 8 areas:
+                        </h3>
+                        <ul class="alt">
+                            <li><a href="research/manufacturing.html">Manufacturing</a></li>
+                            <li><a href="research/nanopowdersynthesis.html">Nanopowder Synthesis</a></li>
+                            <li><a href="research/material-fabrication.html">Material Fabrication</a></li>
+                            <li><a href="research/material-characterization.html">Material Characterization</a></li>
+                            <li><a href="research/fiber-development.html">Fiber Development and Coupling</a></li>
+                            <li><a href="research/photonic-structures.html">Laser-written Photonic Structures</a></li>
+                            <li><a href="research/biocompatability.html">Biocompatibility</a></li>
+                            <li><a href="research/optical-image.html">Optical Imaging and Therapy</a></li>
+                        </ul>
+                    </header>
+                    <header>
+                        <h2>Other Research</h2>
+                        <h3 style="color: #000">
+                            C-SAMBA also conducts research in the following areas:
+                        </h3>
+                        <ul class="alt">
+                            <li><a href="research/ceramic-welding.html">Ceramic Welding</a></li>
+                            <li><a href="research/optical-cavitation.html">Optical Cavitation</a></li>
+                            <li><a href="research/laser-processing.html">Laser Processing</a></li>
+                        </ul>
+                    </header>
+                </div>
+            </div>
+        </section>
+        <div id="footer"</div>
+        <div id="people-modals"</div>
+    </body>
 
 </html>

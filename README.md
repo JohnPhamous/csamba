@@ -20,3 +20,5 @@ This website is made for the C-SAMBA research group at the University of Califor
 - [ ] message each other with history
 - [ ] group chat features
 - [ ] absolute position for research footer
+- [ ] change index navbar to separate
+- [ ] events footer
