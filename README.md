@@ -16,3 +16,6 @@ This website is made for the C-SAMBA research group at the University of Califor
 - [x] biocompatability background is white, change to gray
 - [ ] change faculty to personnel
 - [x] undergrads
+- [ ] message board (kanban board)
+- [ ] message each other with history
+- [ ] group chat features
