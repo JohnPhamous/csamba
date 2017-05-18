@@ -4,7 +4,7 @@
 This website is made for the C-SAMBA research group at the University of California Riverside. I was hired as a contractor to make C-SAMBA's website. The website contains an overview of the research group, personnel, and benchmarks.
 
 ## TODO
-- [ ] Publications list
+- [x] Publications list
 - [ ] Login credentials
   - wait on david for material
 - [ ] scaling issue with homepage video
@@ -14,11 +14,11 @@ This website is made for the C-SAMBA research group at the University of Califor
 - [ ] upcoming and past events
   - wait for David
 - [x] biocompatability background is white, change to gray
-- [ ] change faculty to personnel
+- [x] change faculty to personnel
 - [x] undergrads
 - [ ] message board (kanban board)
 - [ ] message each other with history
 - [ ] group chat features
-- [ ] absolute position for research footer
-- [ ] change index navbar to separate
-- [ ] events footer
+- [x] absolute position for research footer
+- [x] change index navbar to separate
+- [x] events footer
