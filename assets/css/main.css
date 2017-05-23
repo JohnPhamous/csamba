@@ -38,6 +38,7 @@ article, aside, details, figcaption, figure, header, hgroup, menu, nav, section 
 
 figcaption {
     font-size: 0.9em;
+    text-align: justify;
 }
 
 body {
