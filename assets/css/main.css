@@ -1665,7 +1665,7 @@ em, i {
 
 p {
     margin: 0 0 2em 0;
-    /*color: #000;*/
+    color: #222;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -3042,14 +3042,14 @@ footer {
 }
 
 #footer .copyright {
-    color: #bbb;
+    color: #222;
     font-size: 0.8em;
     margin: 0 0 2em 0;
     padding: 0;
 }
 
 #footer .copyright a {
-    color: #bbb;
+    color: #222;
     text-decoration: none;
 }
 
@@ -3059,6 +3059,7 @@ footer {
 }
 
 #footer ul.icons li .icon {
+    color: #222;
     font-size: 0.8em;
 }
 
