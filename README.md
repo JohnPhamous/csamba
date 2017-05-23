@@ -10,6 +10,7 @@ This website is made for the C-SAMBA research group at the University of Califor
 - [ ] scaling issue with homepage video
 - [ ] scaling issue with login bar
 - [ ] padding for overview
+- [ ] full justify caption font
 - [x] link PI biographies with their websites
 - [x] upcoming and past events
   - wait for David
