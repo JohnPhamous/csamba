@@ -10,8 +10,8 @@ This website is made for the C-SAMBA research group at the University of Califor
 - [ ] scaling issue with homepage video
 - [ ] scaling issue with login bar
 - [ ] padding for overview
-- [ ] link PI biographies with their websites
-- [ ] upcoming and past events
+- [x] link PI biographies with their websites
+- [x] upcoming and past events
   - wait for David
 - [x] biocompatability background is white, change to gray
 - [x] change faculty to personnel

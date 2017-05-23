@@ -36,6 +36,10 @@ article, aside, details, figcaption, figure, header, hgroup, menu, nav, section 
     display: block;
 }
 
+figcaption {
+    font-size: 0.9em;
+}
+
 body {
     line-height: 1;
 }
@@ -2264,7 +2268,7 @@ input[type="radio"] + label:before {
 }
 
 .image.left, .image.right {
-    max-width: 40%;
+   max-width: 30%;
 }
 
 .image.left img, .image.right img {
