@@ -5811,6 +5811,10 @@ th {
         position: relative;
         padding: 15px;
     }
+    .modal-body p {
+        color: black;
+    }
+
     .modal-footer {
         padding: 15px;
         text-align: right;

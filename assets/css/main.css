@@ -1670,7 +1670,7 @@ em, i {
 
 p {
     margin: 0 0 2em 0;
-    color: #222;
+    color: #FFF;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -2971,7 +2971,7 @@ button:disabled,
 
 #banner h1 {
     font-size: 2.75em;
-    font-weight: 100;
+    font-weight: 300;
     color: #fff;
     line-height: 1em;
     margin: 0 0 0.5em 0;

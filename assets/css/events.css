@@ -33,19 +33,19 @@
 .event-list > li > time > .month {
     display: block;
     font-size: 15pt;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 1;
 }
 .event-list > li time > .day {
     display: block;
     font-size: 50pt;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 1;
 }
 .event-list > li time > .year {
     display: block;
     font-size: 15pt;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 1;
 }
 .event-list > li > img {
@@ -62,6 +62,7 @@
 }
 .event-list > li > .info > .desc {
     font-size: 8pt;
+    color: black;
     font-weight: 300;
     margin: 0px;
 }
@@ -154,7 +155,7 @@
     .event-list > li > img {
         width: 120px;
         height: 120px;
-        padding: 0px;
+        /*padding: 0px;*/
         margin: 0px;
     }
     .event-list > li > .info {
