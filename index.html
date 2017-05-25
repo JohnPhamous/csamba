@@ -5,7 +5,7 @@
         <title>C-SAMBA</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/main1.css" />
         <link rel="stylesheet" href="assets/css/bootstrap.css" />
         <link rel="stylesheet" href="assets/css/scrolling-nav.css">
         <link rel="stylesheet" href="assets/css/animation.css">
@@ -22,58 +22,21 @@
         <script>
 $(function() {
     $("#overview").load("overview.html");
-});
-$(function() {
     $("#people").load("people.html");
-});
-$(function() {
     $("#people-modals").load("modals.html");
-});
-$(function() {
     $("#publications").load("publications.html");
-});
-$(function() {
     $("#footer").load("footer.html");
+    $("#nav-include").load("templates/navbar.html");
 });
         </script>
     </head>
 
     <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-        <nav class="navbar navbar-default navbar-fixed-top collapsed top-nav-collapse">
-            <div class="container">
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <!-- <a class="navbar-brand page-scroll" href="#banner">C-SAMBA</a> -->
-                </div>
-
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a class="page-scroll" href="#banner">Home</a></li>
-                        <li><a class="page-scroll" href="#overview">Overview</a></li>
-                        <li><a class="page-scroll" href="#people">Faculty</a></li>
-                        <li><a class="page-scroll" href="#publications">Publications</a></li>
-                        <li><a class="page-scroll" href="research.html">Research</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="news-archive.html">News Archive</a></li>
-                        <li><a data-toggle="modal" data-target="#funding">Funding</a></li>
-                        <li><a data-toggle="modal" data-target="#impact">Outreach</a></li>
-                        <li><a data-toggle="modal" data-target="#contact">Contact</a></li>
-                        <li><a data-toggle="modal" data-target="#login">Login</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
+        <div id="nav-include"></div>
         <section id="banner" class="banner">
             <video playsinline autoplay muted loop>
                 <source src="/images/Brain.mp4" type="video/mp4">
             </video>
-            <!--<img src="./images/logo.png" class="pulse">-->
             <img src="./images/logo.png">
             <h1>Center for the Synthesis of Advanced Materials for Biomedical Applications</h1>
             <p>Developing the next generation of implantable materials</p>

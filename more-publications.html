@@ -7,167 +7,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="assets/css/main.css" />
   <link rel="stylesheet" href="assets/css/bootstrap.css" />
+  <link rel='shortcut icon' type='image/x-icon' href='./images/favicon.ico' />
 
   <script src="assets/js/jquery.js"></script>
   <script src="assets/js/skel.min.js"></script>
   <script src="assets/js/util.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/bootstrap.js"></script>
-
+  <script src="assets/js/styling.js"></script>
   <script>
-    $(function() {
-      $("#footer").load("footer.html");
-    });
-    $(function() {
-      $("#people-modals").load("modals.html");
-    });
+$(function() {
+$("#people-modals").load("modals.html");
+$("#footer").load("footer.html");
+$("#nav-include").load("templates/navbar.html");
+});
   </script>
 </head>
 
 <body class="subpage">
-
-  <nav class="navbar navbar-default navbar-fixed-top collapsed top-nav-collapse">
-    <div class="container">
-      <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-	            <span class="sr-only">Toggle navigation</span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	          </button>
-        <!-- <a class="navbar-brand page-scroll" href="#banner">C-SAMBA</a> -->
-      </div>
-
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a class="page-scroll" href="index.html">Home</a></li>
-          <li><a class="page-scroll" href="#overview">Overview</a></li>
-          <li><a class="page-scroll" href="#people">Faculty</a></li>
-          <li><a class="page-scroll" href="#publications">Publications</a></li>
-          <li><a class="page-scroll" href="research.html">Research</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="news-archive.html">News Archive</a></li>
-          <li><a data-toggle="modal" data-target="#funding">Funding</a></li>
-          <li><a data-toggle="modal" data-target="#impact">Outreach</a></li>
-          <li><a data-toggle="modal" data-target="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
+  <div id="nav-include"></div>
   <section class="wrapper">
     <div class="inner">
-      <!--<header class="align-center">
-                <h2>News Archive</h2>
-            </header>-->
+      <header class="align-center">
+                <h2>More Research</h2>
+      </header>
       <div class="table-wrapper">
-        <h4>BBC Radio Interview of Dr. Guillermo Aguilar July 21st, 2016</h4>
         <table>
-          <col width="20px" />
+          <col width="50px" />
           <col width="60px" />
           <thead>
-            <th>Publisher</th>
+            <th>Citation</th>
             <th>Link</th>
           </thead>
           <tbody>
             <tr>
-              <td><img src="./images/bbc.png" width="150px"></td>
-              <td><a href="http://www.bbc.co.uk/programmes/p0423m8n">http://www.bbc.co.uk/programmes/p0423m8n</a></td>
+              <td>Damestani Y, De Howitt N, Halaney DL, Garay JE, Aguilar GA (2016), Evaluation of laser bacterial anti-fouling of transparent nanocrystalline yttria-stabilized-zirconia cranial implant.  Lasers Surg Med, 48: 782-789.</td>
+              <td><a href="http://onlinelibrary.wiley.com/doi/10.1002/lsm.22558/abstract">http://onlinelibrary.wiley.com/doi/10.1002/lsm.22558/abstract</a></td>
+            </tr>
+            <tr>
+              <td>Damestani Y, Galan-Hoffman DE, Oritz D, Cabrales P,  Aguilar G (2016), Inflammatory response to implantation of transparent nanocrystalline yttria-stabilized zirconia using a dorsal window chamber model. Nanomed Nanotech Biol Med, 12: 1757-1763.</td>
+              <td><a href="http://www.sciencedirect.com/science/article/pii/S1549963416300417">http://www.sciencedirect.com/science/article/pii/S1549963416300417</a></td>
+            </tr>
+            <tr>
+              <td>Damestani Y, Melakeberhan B, Rao MP, Aguilar G (2014), Optical clearing agent perfusion enhancement via combination of microneedle poration, heating and pneumatic pressure. Lasers Surg Med, 46: 488–498.</td>
+              <td><a href="http://onlinelibrary.wiley.com/doi/10.1002/lsm.22258/abstract">http://onlinelibrary.wiley.com/doi/10.1002/lsm.22258/abstract</a></td>
+            </tr>
+            <tr>
+              <td>Damestani Y, Reynolds CL, Szu J, Hsu MS, Kodera Y, Binder DK, Park BH, Garay JE, Rao MP, Aguilar G (2013),  Transparent nanocrystalline yttria-stabilized-zirconia calvarium prosthesis.  Nanomed Nanotech Biol Med, 9: 1135-1138.</td>
+              <td><a href="http://www.nanomedjournal.com/article/S1549-9634(13)00361-4/abstract">http://www.nanomedjournal.com/article/S1549-9634(13)00361-4/abstract</a></td>
+            </tr>
+            <tr>
+              <td>Castillo-Vega GR, Penilla EH, Camacho-Lopez S, Aguilar G, Garay JE (2012), Waveguide-like structures written in transparent polycrystalline ceramics with an ultra-low fluence femtosecond laser. Opt Mater Express, 2: 1416-1424.</td>
+              <td><a href="https://www.osapublishing.org/captcha/?guid=BB587CD7-060F-6088-640C-8774F76A1A2C">https://www.osapublishing.org/captcha/?guid=BB587CD7-060F-6088-640C-8774F76A1A2C</a></td>
             </tr>
           </tbody>
         </table>
       </div>
-      <div class="table-wrapper">
-        <h4>UCR Press Release July 12th, 2016</h4>
-        <table>
-          <col width="20px" />
-          <col width="60px" />
-          <thead>
-            <th>Publisher</th>
-            <th>Link</th>
-          </thead>
-          <tbody>
-            <tr>
-              <td><img src="./images/science360.jpg" width="150px"></td>
-              <td><a href="https://news.science360.gov/obj/story/73942d6f-33f5-466f-aaa9-1bdc108557b0/scientists-move-closer-developing-therapeutic-window-brain">https://news.science360.gov/obj/story/73942d6f-33f5-466f-aaa9-1bdc108557b0/scientists-move-closer-developing-therapeutic-window-brain</a></td>
-            </tr>
-            <tr>
-              <td><img src="./images/ucr_news.png" width="150px"></td>
-              <td><a href="https://ucrtoday.ucr.edu/38537">https://ucrtoday.ucr.edu/38537</a></td>
-            </tr>
-            <tr>
-              <td><img src="./images/novus.png" width="150px"></td>
-              <td><a href="http://www.novuslight.com/scientists-closer-to-developing-therapeutic-window-to-brain_N5827.html">http://www.novuslight.com/scientists-closer-to-developing-therapeutic-window-to-brain_N5827.html</a></td>
-            </tr>
-            <tr>
-              <td><img src="./images/vocativ.svg" width="150px"></td>
-              <td><a href="http://www.vocativ.com/339450/a-clear-skull-implant-could-let-doctors-shoot-lasers-into-the-brain/">http://www.vocativ.com/339450/a-clear-skull-implant-could-let-doctors-shoot-lasers-into-the-brain/</a></td>
-            </tr>
-            <tr>
-              <td><img src="./images/optics.png" width="150px"></td>
-              <td><a href="http://optics.org/news/7/7/21">http://optics.org/news/7/7/21</a></td>
-            </tr>
-            <tr>
-              <td><img src="./images/science_daily.png" width="150px"></td>
-              <td><a href="https://www.sciencedaily.com/releases/2016/07/160712133916.htm">https://www.sciencedaily.com/releases/2016/07/160712133916.htm</a></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="table-wrapper">
-        <h4>CICESE Press Release October 23rd, 2015</h4>
-        <table>
-          <col width="20px" />
-          <col width="60px" />
-          <thead>
-            <th>Publisher</th>
-            <th>Link</th>
-          </thead>
-          <tbody>
-            <tr>
-              <td><img src="./images/dtj.png" width="150px"></td>
-              <td><a href="http://www.diariotijuana.info/desarrollan-ceramica-transparente-que-podria-implantarse-en-segmentos-del-craneo/">http://www.diariotijuana.info/desarrollan-ceramica-transparente-que-podria-implantarse-en-segmentos-del-craneo/</a></td>
-            </tr>
-            <tr>
-              <td><img src="./images/logo_UniradioInforma.png" width="150px"></td>
-              <td><a href="http://www.uniradioinforma.com/noticias/ensenada/370467/presentan-investigadores-proyecto-ventana-al-cerebro.html">http://www.uniradioinforma.com/noticias/ensenada/370467/presentan-investigadores-proyecto-ventana-al-cerebro.html</a></td>
-            </tr>
-            <tr>
-              <td><img src="./images/cicese.png" width="150px"></td>
-              <td><a href="http://todos.cicese.mx/sitio/noticia.php?t=texto&stat=Cf&n=703#.Vi5Zc-fDH3V">http://todos.cicese.mx/sitio/noticia.php?t=texto&stat=Cf&n=703#.Vi5Zc-fDH3V</a></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="table-wrapper">
-        <h4>UCR Press Release October 8th, 2015</h4>
-        <table>
-          <col width="20px" />
-          <col width="60px" />
-          <thead>
-            <th>Publisher</th>
-            <th>Link</th>
-          </thead>
-          <tbody>
-            <tr>
-              <td><img src="./images/uc.png" width="150px"></td>
-              <td><a href="https://www.universityofcalifornia.edu/news/5508/window-brain-research-ramps">https://www.universityofcalifornia.edu/news/5508/window-brain-research-ramps</a></td>
-            </tr>
-            <tr>
-              <td><img src="./images/ucr_news.png" width="150px"></td>
-              <td><a href="http://ucrtoday.ucr.edu/32245">http://ucrtoday.ucr.edu/32245</a></td>
-            </tr>
-            <tr>
-              <td><img src="./images/optics.png" width="150px"></td>
-              <td><a href="http://optics.org/news/6/10/36">http://optics.org/news/6/10/36</a></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
   </section>
 
   <div id="people-modals"></div>
+  <div id="footer"></div>
+
 </body>
 
 </html>
