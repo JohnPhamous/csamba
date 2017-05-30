@@ -1668,6 +1668,10 @@ em, i {
     font-style: italic;
 }
 
+#three p {
+    color: black;
+}
+
 p {
     margin: 0 0 2em 0;
     color: #FFF;
