@@ -3050,6 +3050,10 @@ footer {
     padding-top: 2em;
 }
 
+.copyright p {
+    color: #000;
+}
+
 #footer .copyright {
     color: #222;
     font-size: 0.8em;
@@ -3065,6 +3069,10 @@ footer {
 #footer .copyright a:hover {
     color: #bbb;
     text-decoration: underline;
+}
+
+.icons p {
+    color: #000;
 }
 
 #footer ul.icons li .icon {
